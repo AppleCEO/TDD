@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		33EA834323B25A4100191632 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA834223B25A4100191632 /* main.swift */; };
 		33EA835023B25AB600191632 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA834F23B25AB600191632 /* test.swift */; };
+		33EA835823B2719900191632 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA834223B25A4100191632 /* main.swift */; };
+		33EA835A23B2721800191632 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA835923B2721800191632 /* Fare.swift */; };
+		33EA835B23B2726900191632 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA835923B2721800191632 /* Fare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,7 @@
 		33EA834D23B25AB600191632 /* test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EA834F23B25AB600191632 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		33EA835123B25AB600191632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EA835923B2721800191632 /* Fare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				33EA834223B25A4100191632 /* main.swift */,
+				33EA835923B2721800191632 /* Fare.swift */,
 			);
 			path = FareCalculator;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33EA834323B25A4100191632 /* main.swift in Sources */,
+				33EA835A23B2721800191632 /* Fare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EA835B23B2726900191632 /* Fare.swift in Sources */,
+				33EA835823B2719900191632 /* main.swift in Sources */,
 				33EA835023B25AB600191632 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
