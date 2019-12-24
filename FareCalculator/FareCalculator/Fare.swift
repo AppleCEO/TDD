@@ -9,10 +9,13 @@
 import Foundation
 
 struct Fare {
-    var minute = 0
-    var amount: Int {
-        get {
-            return minute * 50
-        }
+    private let amountPerMinute: Int
+    
+    init(amountPerMinute: Int) {
+        self.amountPerMinute = amountPerMinute
+    }
+    
+    mutating func calcurateAmount(minute: Int) -> Int {
+        return minute * amountPerMinute
     }
 }
