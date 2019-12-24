@@ -15,7 +15,7 @@ struct Fare {
         self.amountPerMinute = amountPerMinute
     }
     
-    mutating func calcurateAmount(minute: Int) -> Int {
+    func calcurateAmount(minute: Int) -> Int {
         return minute * amountPerMinute
     }
 }
