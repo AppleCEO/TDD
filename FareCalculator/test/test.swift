@@ -31,6 +31,8 @@ class test: XCTestCase {
     }
 
     func test500WonPer10Minute() {
-        
+        let fare = Fare()
+        fare.minitues(10)
+        XCTAssertEqual(500, five.amount)
     }
 }
